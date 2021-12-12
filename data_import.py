@@ -5,9 +5,6 @@ cookies = {
     'session': '53616c7465645f5f199dc392a3e7c6f5b3988259e6f458710d127077b7fe7f71d615259591b9c76bb1c43f28a3db37ef'
 }
 
-year = 2021
-day = 1
-
 
 def get_question_data(year, day):
     url = 'http://adventofcode.com/{year}/day/{day}/input'.format(
