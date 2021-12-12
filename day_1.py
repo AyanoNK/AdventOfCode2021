@@ -24,7 +24,7 @@ for ranges in range(0, len(parsed_data)):
         if ankle and calc > ankle:
             bigger_previous.append(ankle)
     except IndexError:
-        pass
+        break
     ankle = calc
 
 print('pt2', len(bigger_previous))
